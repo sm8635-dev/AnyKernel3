@@ -10,12 +10,12 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=vayu
-device.name2=bhima
-device.name3=
+device.name1=munch
+device.name2=munchin
+device.name3=munchg
 device.name4=
 device.name5=
-supported.versions=
+supported.versions=11 - 13
 supported.patchlevels=
 '; } # end properties
 
