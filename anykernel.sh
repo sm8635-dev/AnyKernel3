@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=OOF kernel by amack @ xda-developers
+kernel.string=MiNaZuKi kernel by amack @ xda-developers
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -38,10 +38,6 @@ patch_vbmeta_flag=auto;
 
 # boot install
 dump_boot; # use split_boot to skip ramdisk unpack, e.g. for devices with init_boot ramdisk
-
-# init.rc
-backup_file init.rc;
-replace_string init.rc "cpuctl cpu,timer_slack" "mount cgroup none /dev/cpuctl cpu" "mount cgroup none /dev/cpuctl cpu,timer_slack";
 
 write_boot;
 
