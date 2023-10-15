@@ -15,7 +15,7 @@ device.name2=munchin
 device.name3=munchg
 device.name4=
 device.name5=
-supported.versions=11 - 13
+supported.versions=11 - 14
 supported.patchlevels=
 '; } # end properties
 
