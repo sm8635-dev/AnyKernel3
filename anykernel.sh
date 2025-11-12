@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=MiNaZuKi kernel by amack @ xda-developers
+kernel.string=6.1 LTS kernel @ xda-developers
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -15,7 +15,7 @@ device.name2=
 device.name3=
 device.name4=
 device.name5=
-supported.versions=14 - 15
+supported.versions=15 - 16
 supported.patchlevels=
 '; } # end properties
 
